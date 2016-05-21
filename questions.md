@@ -18,6 +18,6 @@ here is index.erb and app.rb respectively. Thanks
   varx = params [:search_by]
   vary = params [:searchterm]
   cat = Cat.new
-  cag.find(vary)
+  cat.find(vary)
   erb :cat
 end
